@@ -1,0 +1,67 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: montserrat, sans-serif;
+}
+
+input, button {
+	appearance: none;
+	background: none;
+	border: none;
+	outline: none;
+}
+
+.App {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #ffCE00, #FE4880;
+}
+
+form {
+	display: block;
+	position: relative;
+}
+
+form::after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: -5pc;
+	left: -1pc;
+	right: -5px;
+	bottom: -4pc;
+	z-index: 1;
+	background-image: linear-gradient(to bottom right, #1eff00, #48bbfe);
+}
+
+form .form-inner {
+ 
+	position: relative;
+	z-index: 2;
+	background-color: #FFF;
+	padding: 30px;
+}
+
+
+
+form .form-inner h2 {
+    color: #888;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+form .form-inner  .form-group {
+    display: block;
+    width: 300;
+    margin-bottom: 15px;
+
+
+} 
+
+
+
+
